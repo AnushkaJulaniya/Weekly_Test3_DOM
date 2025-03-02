@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.fullpage{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.product{
+    width:450px;
+    height:350px;
+    border:6px solid rgb(170, 166, 166);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    font-family: sans-serif;
+}
+ .heading{
+    font-weight:semibold;
+   font-size:2rem;
+}
+.product-Div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:400px;
+    height:60px;
+    background-color:rgb(165, 162, 162);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-weight:bold;
+}
+.btn-parent{
+    width:120px;
+    height:30px;
+    background-color:rgb(30, 176, 176);
+    border:2px solid black;
+    border-radius:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.cart{
+    width:230px;
+    height:350px;
+    border:8px solid rgb(111, 108, 108);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: sans-serif;
+}
+.cart-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+     margin-top:10px;
+     overflow:hidden;
+     margin-bottom: 4px;
+}
+.cart-Div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:200px;
+    height:60px;
+    background-color:rgb(165, 162, 162);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    font-weight:bold;
+}
+.total-Div{
+    background-color:rgb(165, 162, 162);
+    width:200px;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 70px;
+    color:white;
+    font-size:1.8rem;
+    font-weight:bold;
+}
+.total-price{
+    margin-left:25px;
+}
